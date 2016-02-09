@@ -1,0 +1,22 @@
+{
+    "name": "gazatem/dblogger-api",
+    "description": "An api for gazatem/dblogger",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "log", "alert mailing", "monitoring"],
+    "require": {
+        "gazatem/dblogger": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Kemal Yenilmez",
+            "email": "kemal@gazatem.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Gazatem\\DBLoggerApi\\": "src/"
+        }
+    }
+}
