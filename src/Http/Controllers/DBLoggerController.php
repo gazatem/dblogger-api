@@ -3,13 +3,14 @@
 namespace Gazatem\DBLoggerGui\Http\Controllers;
 
 use Illuminate\Routing\Controller as Controller;
+use Gazatem\DBLogger\Model\Log as Logger;
 use Illuminate\Http\Request;
 
 class DBLoggerController extends Controller
 {
     public function index(Request $request)
     {
-        Stat::create(
+        Logger::create(
             [
                 'message' => $request->message,
                 'context' => $request->data,
