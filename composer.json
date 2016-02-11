@@ -3,7 +3,7 @@
     "description": "An api for gazatem/dblogger",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel", "log", "alert mailing", "monitoring", "api"],
+    "keywords": ["laravel", "log", "alert mailing", "monitoring", "api", "php log"],
     "require": {
         "php": ">=5.5.0",
         "illuminate/console": "~5.0",
