@@ -6,7 +6,7 @@ Route::group(
         'middleware' => ['auth:api'],
     ],
     function () {
-        Route::post('/', ['log' => 'DbLoggerController@index']);
+        Route::post('/', ['uses' => 'DbLoggerController@index']);
     }
 
 );

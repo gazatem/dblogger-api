@@ -13,10 +13,10 @@ class DBLoggerController extends Controller
         Logger::create(
             [
                 'message' => $request->message,
-                'context' => $request->data,
+                'context' => json_encode($request->data),
                 'level' => $request->level,
                 'level_name' => $request->level_name
             ]);
-        return \Response::make('message', 200);
+		return \Response::make(null, 200);
     }
 }

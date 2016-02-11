@@ -1,7 +1,7 @@
 <?php
-namespace Gazatem\DBLoggerGui;
+namespace Gazatem\DBLoggerApi;
 
-use Gazatem\DBLoggerGui\Facade\DBLoggerGui;
+use Gazatem\DBLoggerGui\Facade\DBLoggerApi;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
 
