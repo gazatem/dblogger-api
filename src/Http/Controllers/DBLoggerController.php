@@ -1,6 +1,6 @@
 <?php
 
-namespace Gazatem\DBLoggerGui\Http\Controllers;
+namespace Gazatem\DBLoggerApi\Http\Controllers;
 
 use Illuminate\Routing\Controller as Controller;
 use Gazatem\DBLogger\Model\Log as Logger;
